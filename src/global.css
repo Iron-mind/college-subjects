@@ -39,7 +39,7 @@ h3 b {
 
 h1 {
   color: white;
-  font-size: 2rem;
+  font-size: 3rem;
   padding: 0;
   margin: 0;
 }
@@ -112,10 +112,10 @@ ul {
 
 .page {
   width: 90vw;
-  max-width: 1200px;
+  max-width: 2000px;
   margin: 0 auto;
   background: linear-gradient(90deg, rgba(24, 182, 246, 0.6) 0%, rgba(172, 127, 244, 0.6) 100%);
-  overflow: hidden;
+  /* overflow: hidden; */
   border-radius: 6px;
 }
 
@@ -165,7 +165,7 @@ ul {
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .page {
@@ -203,4 +203,7 @@ html {
 body {
   padding: 0;
   line-height: inherit;
+}
+p{
+  font-size: large;
 }
